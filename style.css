@@ -1,0 +1,80 @@
+@font-face {
+  font-family: 'Optimus';
+  src: url(OptimusPrinceps.ttf);
+}
+
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+* { margin: 0; }
+
+body { background-color: #0e0b16; }
+
+.title {
+  font-family: 'Optimus';
+  font-size: 52px;
+  color: #FAFAFA;
+  margin: 0 100px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+nav {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.nav-l, .nav-r {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3em;
+  color: #FAFAFA;
+  font-family: Source Code Pro;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+.nav-l a:hover, 
+.nav-r a:hover { 
+
+  font-family: Source Code Pro;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+
+/* STICKY FOOTER */
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper { flex: 1; }
+
+footer {
+  display: flex;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 25px 0;
+  font-family: Source Code Pro;
+  color: #FAFAFA;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 2px;
+  gap: 15px;
+}
+
+.copyright {
+  font-size: 12px;
+}
