@@ -6,11 +6,6 @@
   --dark-shade: #282828;
 }
 
-@font-face {
-  font-family: 'Optimus';
-  src: url(OptimusPrinceps.ttf);
-}
-
 /* REMOVE DEFAULT STYLES */ 
 * {
   margin: 0;
